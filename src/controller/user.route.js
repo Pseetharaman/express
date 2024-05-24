@@ -33,4 +33,5 @@ router.post("/login", async(req, res)=>{
     return res.json({message:"Successfully logged In.",user:exitingUser, success:true});
 
 })
+
 export default router;
